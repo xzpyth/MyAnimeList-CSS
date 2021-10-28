@@ -1,0 +1,63 @@
+.header .header-title {
+    position: absolute;
+    top: 0px;
+    background-image: url("https://i.ibb.co/7WfF6Ps/mal-banner.png");
+    background-size: auto 70px;
+    height: 70px;
+    width: 1280px;
+}
+
+.list-unit .list-status-title {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #4d4d4d;
+}
+
+.list-container {
+background-color: #ffffff70;
+background-image: url("https://i.ibb.co/hFJgCks/bg-mkiii-01.png");
+}
+
+.list-table > tbody:nth-of-type(2n+1) {
+  background-color: rgba(255, 255, 255, .3)
+
+}
+
+.status-menu-container {
+  height: 42px;
+}
+
+.status-menu-container .search-container #search-button {
+    display: inline-block;
+    height: 20px;
+    margin-top: 8px;
+    color: #b5b5b5;
+    font-size: 1.6em;
+    vertical-align: middle;
+}
+
+.list-table .list-table-header .header-title.status{
+  width: 3px;
+}
+
+.list-table .list-table-data .data.status{
+	border-radius: 2px;
+}
+
+.list-table .list-table-data .data.status.reading, .list-table .list-table-data .data.status.watching {
+	background: linear-gradient(180deg, rgba(0,128,255,1) 0%, rgba(0,89,255,1) 100%);
+}
+
+.list-table .list-table-data .data.status.completed {
+background: linear-gradient(180deg, rgba(0,189,41,1) 0%, rgba(0,164,37,1) 100%);
+}
+
+.status-menu-container .status-menu .status-button {
+  color: #00000045;
+}
+
+.status-menu-container .status-menu .status-button::after{
+  background-color: #FF0030;
+  border-radius: 2px;
+  height: 4px;
+  }
