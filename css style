@@ -1,7 +1,7 @@
 .header .header-title {
     position: absolute;
     top: 0px;
-    background-image: url("https://i.ibb.co/7WfF6Ps/mal-banner.png");
+    background-image: url("https://raw.githubusercontent.com/xzpyth/MyAnimeList-CSS/f32201680829efba6cf5b7615a00195845f23951/mal%20banner-01.svg");
     background-size: auto 70px;
     height: 70px;
     width: 1280px;
